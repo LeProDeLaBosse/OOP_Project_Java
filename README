@@ -1,0 +1,21 @@
+Welcome to my game, a 2D platformer. In this game, you will control a character and navigate through various levels filled with obstacles.
+
+Installation :
+
+To play the game, simply download and run the Main.java file in your preferred Java development environment. Make sure you have the latest version of Java installed on your computer.
+
+How to Play :
+
+Once you have launched the game, use the arrow keys to move your character around the level. Your objective is to complete the level. Along the way, you will encounter various obstacles that you must overcome.
+
+At the end of each level, you will collect a star that will allow you to progress to the next level.
+
+Features
+The game includes the following features:
+
+6 levels of increasing difficulty (more levels may be added later as they are easy to create)
+Even more types of blocks could be added in the fututre too.
+Various types of obstacles to overcome
+Credits
+
+This was created by VIALA Hugo using Java and the Swing library.
