@@ -145,11 +145,11 @@ public class GamePanel extends JPanel implements KeyListener {
         if (currentBlock != null && currentBlock.isEndPoint()) {
             // reset level
             currentLevelNb ++;
-            if (currentLevelNb == 6) {
+            if (currentLevelNb == 1) {
                 JFrame winFrame = new JFrame("You Win!");
                 winFrame.setSize(300, 100);
                 winFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                JLabel winLabel = new JLabel("Congratulations, you win!");
+                JLabel winLabel = new JLabel("<html>Congratulations, you win!<br>This game was developed by VIALA Hugo,<br>tanks for playing!</html>");
                 winLabel.setHorizontalAlignment(JLabel.CENTER);
                 winFrame.getContentPane().add(winLabel);
                 winFrame.setVisible(true);
